@@ -1,0 +1,7 @@
+Feature group,Examples,Purpose
+Time features,"session_duration_min, session_hour, is_weekend",Capture when and how long the user session was
+Cart features,"has_items, avg_item_value, discount_per_item",Represent basket size and cart value
+Promotion features,"has_promotion, promo_gap_ratio, accepted_strong_promo",Measure promotion presence and strength
+Interaction features,"items_and_accepted, over30_and_items, f12_f17_cross",Capture combined behaviors that may indicate ordering
+Frequency/count encoding,category_count and category_freq features,Show how common each category or combination is
+Target encoding,fold-safe average target values for selected categories,Use category-level order behavior without data leakage

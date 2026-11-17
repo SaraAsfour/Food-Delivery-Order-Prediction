@@ -1,0 +1,7 @@
+Model,Evaluation,AUC,Accuracy,Precision_0.5,Recall_0.5,F1_0.5,Best_F1,Best_F1_Threshold
+LightGBM multi-seed target encoding,OOF cross-validation,0.97302,0.97393,0.63341,0.24607,0.35444,0.51795,0.24
+LightGBM regularized,Holdout validation,0.97206,0.97406,0.63004,0.262,0.3701,0.50945,0.26
+Random Forest 100 trees,Holdout validation,0.96679,0.90028,0.22048,0.95778,0.35844,0.45584,0.88
+Logistic Regression,Holdout validation,0.96239,0.86733,0.17786,0.98323,0.30123,0.4284,0.88
+Decision Tree depth 12,Holdout validation,0.94068,0.89426,0.20815,0.93985,0.34081,0.44043,0.93
+KNN,"Holdout validation, trained on small sample",0.92225,0.97048,0.47032,0.11914,0.19012,0.39017,0.21

@@ -8,13 +8,13 @@ Predicting whether a food-delivery app session ends in an order (`order_placed =
 
 | Model | AUC | F1 |
 |---|---|---|
-| Logistic Regression | 0.9624 | 0.4289 |
-| K-Nearest Neighbors | 0.9220 | 0.3902 |
-| Decision Tree | 0.9415 | 0.4404 |
-| Random Forest | 0.9670 | 0.4612 |
-| **LightGBM (final)** | **0.9724** | **0.5179** |
+| Logistic Regression | 0.9624 | 0.4284 |
+| K-Nearest Neighbors | 0.9223 | 0.3902 |
+| Decision Tree | 0.9407 | 0.4404 |
+| Random Forest | 0.9668 | 0.4558 |
+| **LightGBM (final)** | **0.9730** | **0.5180** |
 
-The final LightGBM model reaches an **out-of-fold AUC of 0.9724** and a best F1 of 0.518 at a decision threshold of 0.24.
+The final LightGBM model reaches an **out-of-fold AUC of 0.9730** and a best F1 of 0.518 at a decision threshold of 0.24.
 
 ## Dataset
 
@@ -67,7 +67,7 @@ The final LightGBM model reaches an **out-of-fold AUC of 0.9724** and a best F1 
 
 ```bash
 pip install -r requirements.txt
-# put train.csv and test.csv in data/, then open the notebook
+unzip train.csv in data/, then open the notebook
 jupyter notebook notebooks/
 ```
 
